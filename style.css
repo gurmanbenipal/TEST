@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    display: flex;  /* defaults to row layout */
+    justify-content: center;  /* centers items horizontally in row layout */
+    align-items: center;  /* centers vertically in row layout */
+    flex-direction: column; /* will set layout to column instead of row */
+    overflow: hidden;
+   }
+
+   #num::-webkit-outer-spin-button,
+   #num::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+   }
+   
+
+   input[type=number] {
+     -moz-appearance: textfield;
+   }
+#num{
+    text-align: center;
+}
+button{
+
+    font-size: 100px;
+    background-color: grey;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 0.8vmin; 
+    width: 20vmin;
+
+
+}
+button:hover{
+
+    background-color:white;
+    color:grey ;
+
+
+}
+
+input{
+    font-size: 100px;
+    border: 2px solid grey;
+    border-radius: 0.8vmin; 
+    width: 40vmin;
+    outline: none;
+}
+.total{
+
+    font-size: 100px;
+    font-weight: bold;
+}
